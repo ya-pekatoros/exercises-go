@@ -49,7 +49,7 @@ import (
 )
 
 func main() {
-	emoji := []rune("cool😀")
+	emoji := "cool😀" // объявлем emoji просто как строку без преоьразования в rune
 
 	for _, ch := range emoji {
 		fmt.Println(ch, string(ch)) // выводим код символа и его строковое представление
